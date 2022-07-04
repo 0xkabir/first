@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-image: url("assets/background.jpg");
+            background-size: cover;
+        }
+
+        ::placeholder{
+            color: rgb(31, 30, 30);
+            opacity: 1;
+        }
+
+        .signup{
+            width: 400px;
+            margin: 150px 250px;
+            background-color: rgba(6, 59, 138, 0.5);
+            border-radius: 10px;
+        }
+        .inp {
+            width: 90%;
+            height: 30px;
+            margin: 5px 15px;
+            padding: 5px;
+            border: none;
+            background-color: rgba(169, 197, 238, 0.829);
+            border-bottom: 2px solid grey;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <form action="POST">
+            <input type="text" name="fname" id="fname" class="inp" placeholder="First Name" style="margin-top: 15px;"><br>
+            <input type="text" name="lname" id="lname" class="inp" placeholder="Last Name"><br>
+            <input type="email" name="email" id="email" class="inp" placeholder="Email"><br>
+            <input type="password" name="password" id="password" class="inp" placeholder="Password"><br>
+            <input type="password" name="password" id="password" class="inp" placeholder="Re-Type Password" style="margin-bottom: 15px;"><br>
+        </form>
+    </div>
+</body>
+</html>
